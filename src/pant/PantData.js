@@ -1,0 +1,73 @@
+const pants = [
+    {
+        image: 'https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/23999662/2023/7/25/1ed08039-981e-401e-ae39-fbfd80c414e01690268645339-Jb-Just-BLACK-Men-Urban-Slim-Slim-Fit-Cotton-Regular-Trouser-1.jpg',
+        title: 'Black Slim Fit Formal Trousers',
+        price: '1399',
+        color: 'Black',
+        size: 'S',
+    },
+    {
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoHA1bc_sU5Gs8d-Sd_COeCAIwF8C0r7zgbA&s',
+        title: 'Olive Green Cargo Pants',
+        price: '1499',
+        color: 'Green',
+        size: 'M',
+    },
+    {
+        image: 'https://nobero.com/cdn/shop/files/WebImages-0014_755dfb17-89f7-4544-b679-9623c73bc6d9.webp?v=1745484989',
+        title: 'Grey Joggers with Zipper Pockets',
+        price: '1099',
+        color: 'Grey',
+        size: 'L',
+    },
+    {
+        image: 'https://dennison.in/cdn/shop/files/27-3-2416395.jpg?v=1714552468',
+        title: 'Navy Blue Tapered Chinos',
+        price: '1299',
+        color: 'Blue',
+        size: 'XL',
+    },
+    {
+        image: 'https://assets.ajio.com/medias/sys_master/root/20240809/L9wO/66b620ed6f60443f31fc432b/-473Wx593H-442588450-khaki-MODEL3.jpg',
+        title: 'Classic Khaki Flat-Front Pants',
+        price: '1199',
+        color: 'Brown',
+        size: 'S',
+    },
+    {
+        image: 'https://flyandoff.in/cdn/shop/files/3_c5d5fb04-c9a4-442b-8655-5afe6261bbf8.jpg?v=1704980913',
+        title: 'Street Style Black Joggers',
+        price: '999',
+        color: 'Black',
+        size: 'S',
+    },
+    {
+        image: 'https://m.media-amazon.com/images/I/61B5E0svkEL._AC_SL1500_.jpg',
+        title: 'Relaxed Fit Drawstring Pants',
+        price: '1099',
+        color: 'Brown',
+        size: 'M',
+    },
+    {
+        image: 'https://imagescdn.vanheusenindia.com/img/app/product/3/39826520-16436564.jpg?auto=format&w=390',
+        title: 'Denim Blue Slim Fit Jeans',
+        price: '1499',
+        color: 'Blue',
+        size: 'L',
+    },
+    {
+        image: 'https://3.imimg.com/data3/EB/CJ/MY-22669816/white-linen-pant.jpeg',
+        title: 'White Linen Summer Pants',
+        price: '1399',
+        color: 'White',
+        size: 'S',
+    },
+    {
+        image: 'https://adro.in/cdn/shop/files/PH-ANK-Beige_1.jpg?v=1748936859&width=480',
+        title: 'Sand Brown Ankle Length Chinos',
+        price: '1299',
+        color: 'Brown',
+        size: 'M',
+    },
+];
+export default pants;

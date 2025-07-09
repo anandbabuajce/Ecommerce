@@ -1,0 +1,78 @@
+.details-container {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.image-section img {
+    margin-left: 50px;
+    margin-right: 75px;
+    width: 400px;
+    border-radius: 8px;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+h3{
+    font-size: 1.5rem;
+    padding-top: 1px;
+    margin-top: 1px;
+}
+h4{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+h5{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.info-section {
+    max-width: 500px;
+}
+
+.size-btn {
+    padding: 8px 16px;
+    margin: 4px;
+    margin-left: 1px;
+    border: 1px solid #b0aaaa;
+    background: white;
+    cursor: pointer;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.08);
+    font-weight: bold;
+
+}
+
+.size-btn.selected {
+    background: black;
+    color: white;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+.plus,.minus{
+        width: 35px;
+        height: 35px;
+        background: white;
+        border: 1px solid #b0aaaa;
+        font-weight: bold;
+}
+
+.add-to-bag, .size-chart-btn {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

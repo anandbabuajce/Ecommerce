@@ -1,0 +1,57 @@
+.modal-backdrop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+}
+
+.modal-box {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 320px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 0 3px 15px rgb(250, 218, 77);
+}
+
+.modal-box h2 {
+    text-align: center;
+}
+
+.modal-box input,
+.modal-box textarea {
+    width: 92%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.auth-action-btn {
+    padding: 0.7rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.auth-action-btn:hover {
+    background-color: #555;
+}
+
+.auth-link-text {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.auth-link-text a {
+    color: blue;
+    text-decoration: underline;
+}

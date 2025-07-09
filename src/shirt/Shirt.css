@@ -1,0 +1,63 @@
+/* src/pages/ShirtPage.css */
+.shirt-page {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 220px;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.sidebar h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sidebar label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.shirt-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.shirt-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background-color: #fff;
+}
+
+.shirt-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.shirt-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.shirt-card h4 {
+    margin: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.shirt-card p {
+    margin: 0 10px 10px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+}
